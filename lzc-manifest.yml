@@ -1,0 +1,19 @@
+application:
+  subdomain: cops
+  background_task: true
+  public_path:
+    - /
+  upstreams:
+    - location: /
+      backend: http://cops:80/
+services:
+  cops:
+    # upstream: linuxserver/cops:4.5.2
+    image: docker.1ms.run/linuxserver/cops:4.5.2
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+    binds:
+      - /lzcapp/var/config:/config
+      - /lzcapp/var/books:/books

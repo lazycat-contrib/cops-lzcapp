@@ -1,0 +1,14 @@
+package: cloud.lazycat.app.cops
+version: 3.6.5
+name: Cops
+description: "📚web-based light alternative to Calibre content server"
+min_os_version: "1.5.0"
+homepage: https://github.com/mikespub-org/seblucas-cops
+author: mikespub-org
+locales:
+  zh:
+    description: "📚 基于 Web 的轻量级 Calibre 内容服务器替代方案"
+    name: Cops
+  en:
+    description: "📚web-based light alternative to Calibre content server"
+    name: Cops
