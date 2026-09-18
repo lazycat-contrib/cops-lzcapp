@@ -8,8 +8,8 @@ application:
       backend: http://cops:80/
 services:
   cops:
-    # upstream: linuxserver/cops:4.5.2
-    image: docker.1ms.run/linuxserver/cops:4.5.2
+    # upstream: linuxserver/cops:4.5.4
+    image: docker.1ms.run/linuxserver/cops:4.5.4
     environment:
       - PUID=1000
       - PGID=1000

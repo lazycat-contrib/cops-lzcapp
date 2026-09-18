@@ -1,5 +1,5 @@
 package: cloud.lazycat.app.cops
-version: 4.5.2
+version: 4.5.4
 name: Cops
 description: "\U0001F4DAweb-based light alternative to Calibre content server"
 min_os_version: "1.5.0"
