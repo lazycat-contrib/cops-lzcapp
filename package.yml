@@ -1,4 +1,5 @@
 package: cloud.lazycat.app.cops
+license: GPL-2.0
 version: 4.5.4
 name: Cops
 description: "\U0001F4DAweb-based light alternative to Calibre content server"
